@@ -6,7 +6,8 @@
     "dev": "next dev --port 2877",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "format": "prettier --write \"src/**/*.{ts,tsx,js,jsx,json,css,md}\" \"*.{ts,tsx,js,jsx,json,css,md}\""
   },
   "dependencies": {
     "lucide-react": "^1.73.0",
