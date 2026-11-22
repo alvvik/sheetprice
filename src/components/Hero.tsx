@@ -13,7 +13,7 @@ export default function Home() {
           width={1200}
           height={800}
           priority
-          quality={20}
+          quality={75}
         />
       </div>
 
