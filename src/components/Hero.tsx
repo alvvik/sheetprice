@@ -4,7 +4,7 @@ import Link from "next/link";
 import { ExternalLink } from "lucide-react";
 export default function Home() {
   return (
-    <div className="relative flex min-h-screen flex-col overflow-hidden bg-black pt-16 pb-12 sm:pb-16 lg:pb-32 xl:pb-48 2xl:pb-56">
+    <div className="relative flex min-h-screen flex-col overflow-hidden bg-zinc-950 pt-16 pb-12 sm:pb-16 lg:pb-32 xl:pb-48 2xl:pb-56">
       <div className="absolute inset-y-0 right-0">
         <Image
           className="h-full w-full max-w-4xl origin-left object-cover opacity-50 lg:-translate-x-8 lg:scale-110 xl:opacity-100"
@@ -23,7 +23,7 @@ export default function Home() {
             <h1 className="mt-0 text-center text-7xl font-bold tracking-tighter text-white md:text-center">
               Osiedlowy szczeniak
             </h1>
-            <p className="text-opacity-70 mt-12 leading-7 text-white md:max-w-sm md:mx-auto">
+            <p className="text-opacity-70 mt-12 leading-7 text-white md:mx-auto md:max-w-sm">
               Znajdziesz u nas karmę, akcesoria i wszystko, czego potrzebują Twoi czworonożni
               przyjaciele.
             </p>
