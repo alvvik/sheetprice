@@ -9,12 +9,7 @@ type CollapsiblePanelProps = {
   id?: string;
 };
 
-export default function CollapsiblePanel({
-  open,
-  children,
-  className,
-  id,
-}: CollapsiblePanelProps) {
+export default function CollapsiblePanel({ open, children, className, id }: CollapsiblePanelProps) {
   const contentRef = useRef<HTMLDivElement | null>(null);
   const [height, setHeight] = useState(0);
 
@@ -43,12 +38,7 @@ export default function CollapsiblePanel({
   }, [open]);
 
   return (
-    <div
-      id={id}
-      className={className}
-      style={{ height }}
-      aria-hidden={!open}
-    >
+    <div id={id} className={className} style={{ height }} aria-hidden={!open}>
       <div ref={contentRef}>{children}</div>
     </div>
   );
